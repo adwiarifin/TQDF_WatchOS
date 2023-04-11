@@ -55,8 +55,8 @@ void setup() {
     /* Unused pins:      */ unused_pins
   );
   /* USER SETUP CODE 1*/
-  WatchOS.LED_setBrightnessMax(50);
-  WatchOS.RTC_initialTime(13,45,30);
+  WatchOS.LED_setBrightnessMax(50);  // brightness: 1-100 percent
+  WatchOS.RTC_initialTime(13,45,30); // CHANGE THIS VALUE -- based on current time: hour, minute, second
 
   /* END USER SETUP CODE 1*/
 }
